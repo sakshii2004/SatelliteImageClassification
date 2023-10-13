@@ -1,0 +1,9 @@
+scikit-learn
+streamlit
+matplotlib
+pandas
+scikit-image
+opencv-python
+pillow
+numpy
+pickle
