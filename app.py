@@ -5,7 +5,7 @@ import joblib
 import cv2
 from sklearn.ensemble import RandomForestClassifier
 
-model = pickle.load(open('RF_Rhea.pkl','rb'))
+model = pickle.load(open('RF.pkl','rb'))
 
 from PIL import Image
 
