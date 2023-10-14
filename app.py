@@ -1,6 +1,6 @@
 import streamlit as st
 from feature_extraction import feature_extraction
-import pickle
+import pickle5 as pickle
 import joblib
 import cv2
 from sklearn.ensemble import RandomForestClassifier
