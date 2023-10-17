@@ -1,14 +1,14 @@
 import streamlit as st
 from feature_extraction_2 import extract_features
 from preprocess import preprocess
-import pickle5 as pickle
+import pickle
 import cv2
 from PIL import Image
 from sklearn.ensemble import RandomForestClassifier
 import time
 
 # Loading the pickled model
-model = pickle.load(open('RF_Rhea.pkl', 'rb'))
+model = pickle.load(open('modelRF_Final.pkl', 'rb'))
 
 
 def main():
