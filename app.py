@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 import time
 
 # Loading the pickled model
-model = pickle.load(open('modelRF.pkl', 'rb'))
+model = pickle.load(open('rf12.pkl', 'rb'))
 
 
 def main():
